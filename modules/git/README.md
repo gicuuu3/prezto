@@ -235,6 +235,7 @@ zstyle ':prezto:module:git:alias' skip 'yes'
 ### Push
 
   - `gp` updates remote refs along with associated objects.
+  - `gpk` updates remote refs along with associated objects. Set ci.skip as option.
   - `gpf` forcefully updates remote refs along with associated objects using the safer `--force-with-lease` option.
   - `gpF` forcefully updates remote refs along with associated objects using the riskier `--force` option.
   - `gpa` updates remote branches along with associated objects.
